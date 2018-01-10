@@ -6,3 +6,6 @@ def return_me(gift):
 
 def plus_me(n):
   return n+1
+
+def minus_me(n):
+  return n-1
