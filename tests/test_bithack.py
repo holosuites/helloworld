@@ -8,7 +8,7 @@ def test_computeSign():
     assert(bithacks.computeSign(42) == 1)
 
 def test_detectOppositeSign():
-    assert(bithacks.detectOppositeSign(-1,-1) == False)
-    assert(bithacks.detectOppositeSign(-1,1) == True)
-    assert(bithacks.detectOppositeSign(1,-1) == True)
-    assert(bithacks.detectOppositeSign(1,1) == False)
+    assert(bithacks.detectOppositeSigns(-1,-1) == False)
+    assert(bithacks.detectOppositeSigns(-1,1) == True)
+    assert(bithacks.detectOppositeSigns(1,-1) == True)
+    assert(bithacks.detectOppositeSigns(1,1) == False)
